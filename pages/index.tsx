@@ -5,11 +5,10 @@ import { FeaturedPosts } from '../sections'
 import { getPosts } from '../services/index'
 
 const Home: NextPage = ({ posts }: any) => {
-  console.log(posts)
   return (
     <div className="bg-gray container mx-auto mb-8 px-10">
       <Head>
-        <title>Create Next App</title>
+        <title>Travel Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
