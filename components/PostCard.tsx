@@ -8,7 +8,6 @@ interface PostCardProps {
 }
 
 const PostCard = ({ post }: PostCardProps) => {
-  console.log('hello', post)
   return (
     <div>
       <div className="mb-8 rounded-lg bg-white p-0 pb-12 shadow-lg lg:p-8">

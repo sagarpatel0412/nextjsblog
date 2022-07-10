@@ -26,7 +26,6 @@ const PostWidget = ({ categories, slug }: any) => {
           {slug ? 'Related Posts' : 'Recent Posts'}
         </h3>
         {relatedPosts.map((post: any, index: any) => {
-          console.log('hello3', post)
           return (
             <div key={index} className="mb-4 flex w-full items-center">
               <div className="w-16 flex-none">
